@@ -1,0 +1,69 @@
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:01:19.236Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:04:07.794Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-11-20T00:04:45.835Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-11-20T00:04:46.416Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T00:04:46.452Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:04:51.565Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:05:22.019Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-11-20T00:10:52.543Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-11-20T00:10:53.286Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T00:10:53.342Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:10:55.435Z"}
+{"level":"verbose","message":"Create User","timestamp":"2017-11-20T00:10:55.697Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:14:53.478Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:31:59.813Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:32:11.476Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:32:13.263Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:32:44.445Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:33:45.893Z"}
+{"level":"verbose","message":"Get all users","timestamp":"2017-11-20T00:33:45.894Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:34:00.282Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:34:00.284Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:34:00.377Z"}
+{"level":"verbose","message":"Get all users","timestamp":"2017-11-20T00:34:00.377Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-11-20T00:39:10.752Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-11-20T00:39:12.511Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T00:39:12.553Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:39:13.347Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:39:24.216Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:39:24.224Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:40:46.546Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:40:47.234Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:44:03.131Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:44:06.535Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:44:06.667Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:44:07.763Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:44:07.765Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:44:11.609Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:44:18.878Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:44:20.697Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T00:44:20.723Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-11-20T02:10:05.658Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-11-20T02:10:06.416Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T02:10:06.452Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T02:10:10.229Z"}
+{"level":"verbose","message":"Get all users","timestamp":"2017-11-20T02:10:10.232Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T02:10:26.166Z"}
+{"level":"verbose","message":"Get all users","timestamp":"2017-11-20T02:10:26.166Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T02:10:26.211Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T02:18:37.393Z"}
+{"level":"verbose","message":"Get all users","timestamp":"2017-11-20T02:18:37.394Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T02:20:17.937Z"}
+{"level":"verbose","message":"Create User","timestamp":"2017-11-20T02:20:18.084Z"}
+{"level":"error","message":"ValidationError: User validation failed: lastName: Path `lastName` is required., firstName: Path `firstName` is required.\n    at MongooseError.ValidationError (/Users/Amrita/Documents/BUS ADM 810/ToDo/server/node_modules/mongoose/lib/error/validation.js:28:11)\n    at model.Document.invalidate (/Users/Amrita/Documents/BUS ADM 810/ToDo/server/node_modules/mongoose/lib/document.js:1636:32)\n    at /Users/Amrita/Documents/BUS ADM 810/ToDo/server/node_modules/mongoose/lib/document.js:1508:17\n    at validate (/Users/Amrita/Documents/BUS ADM 810/ToDo/server/node_modules/mongoose/lib/schematype.js:779:7)\n    at /Users/Amrita/Documents/BUS ADM 810/ToDo/server/node_modules/mongoose/lib/schematype.js:824:11\n    at Array.forEach (native)\n    at SchemaString.SchemaType.doValidate (/Users/Amrita/Documents/BUS ADM 810/ToDo/server/node_modules/mongoose/lib/schematype.js:784:19)\n    at /Users/Amrita/Documents/BUS ADM 810/ToDo/server/node_modules/mongoose/lib/document.js:1506:9\n    at _combinedTickCallback (internal/process/next_tick.js:73:7)\n    at process._tickCallback (internal/process/next_tick.js:104:9)","timestamp":"2017-11-20T02:20:18.100Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T02:20:40.334Z"}
+{"level":"verbose","message":"Get all users","timestamp":"2017-11-20T02:20:40.335Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T02:23:29.435Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T02:29:24.236Z"}
+{"level":"verbose","message":"Get all users","timestamp":"2017-11-20T02:29:24.236Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-11-20T02:29:40.690Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-11-20T02:29:41.337Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T02:29:41.377Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T02:29:44.758Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T02:31:13.822Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T02:41:51.484Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T02:49:08.821Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-20T02:49:08.895Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-11-20T03:16:51.769Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-11-20T03:16:53.663Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-20T03:16:53.709Z"}

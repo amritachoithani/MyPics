@@ -1,0 +1,5 @@
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-29T00:04:43.211Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-29T00:04:43.374Z"}
+{"level":"verbose","message":"Get todo 5a1b28798033f03054f04545","timestamp":"2017-11-29T00:04:43.374Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-29T00:05:18.565Z"}
+{"level":"verbose","message":"Get todo 5a1b28798033f03054f04545","timestamp":"2017-11-29T00:05:18.565Z"}

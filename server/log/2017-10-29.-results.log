@@ -1,0 +1,28 @@
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-10-29T14:25:04.830Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-10-29T14:25:05.007Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-10-29T14:25:05.666Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-10-29T14:26:40.671Z"}
+{"level":"verbose","message":"Get all users","timestamp":"2017-10-29T14:26:40.673Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-10-29T14:26:42.593Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-10-29T15:16:07.548Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-10-29T15:16:07.768Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-10-29T15:16:07.804Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-10-29T15:30:09.302Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-10-29T16:20:51.511Z"}
+{"level":"verbose","message":"Create User","timestamp":"2017-10-29T16:20:51.518Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-10-29T17:18:47.951Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-10-29T17:18:48.104Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-10-29T17:18:48.141Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-10-29T17:18:57.779Z"}
+{"level":"verbose","message":"Create User","timestamp":"2017-10-29T17:18:57.816Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-10-29T17:30:47.219Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-10-29T17:30:47.482Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-10-29T17:30:47.523Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-10-29T17:30:53.867Z"}
+{"level":"verbose","message":"Create User","timestamp":"2017-10-29T17:30:53.902Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-10-29T17:49:45.667Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-10-29T17:49:45.821Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-10-29T17:49:45.860Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-10-29T18:03:40.838Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-10-29T18:03:41.017Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-10-29T18:03:41.056Z"}

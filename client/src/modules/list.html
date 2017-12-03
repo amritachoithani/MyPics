@@ -1,0 +1,9 @@
+<template>
+	<h1>${message}</h1>
+	<compose show.bind="showList" view="./components/todoList.html"></compose>
+	<compose show.bind="!showList" view="./components/todoForm.html"></compose>
+
+	<button click.trigger="logout()">logout</button>
+
+	<button click.trigger="createTodo()">Create a Todo</button>
+</template>

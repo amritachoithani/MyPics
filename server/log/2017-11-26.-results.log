@@ -1,0 +1,18 @@
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-11-26T20:43:24.174Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-11-26T20:43:26.359Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-11-26T20:43:27.767Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-26T20:44:26.278Z"}
+{"level":"verbose","message":"Get all users","timestamp":"2017-11-26T20:44:26.280Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-26T20:45:10.715Z"}
+{"level":"verbose","message":"Get all users","timestamp":"2017-11-26T20:45:10.716Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-26T20:45:11.241Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-26T20:47:52.777Z"}
+{"level":"verbose","message":"Create User","timestamp":"2017-11-26T20:47:53.005Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-26T20:48:02.739Z"}
+{"level":"verbose","message":"Get all users","timestamp":"2017-11-26T20:48:02.739Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-26T20:48:07.835Z"}
+{"level":"verbose","message":"Get all users","timestamp":"2017-11-26T20:48:07.835Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-26T20:48:07.927Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-26T20:48:08.798Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-11-26T20:48:08.800Z"}
+{"level":"verbose","message":"Get all users","timestamp":"2017-11-26T20:48:08.801Z"}
