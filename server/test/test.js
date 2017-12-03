@@ -11,12 +11,11 @@ User = require('../app/models/users');
 
 chai.use(chaiHttp);
 
-describe('Test', function() {
+/**describe('Test', function() {
     it('/GET index.html');
-    it('/GET 404');
+    it('/GET 404');**/
  
-    
-  });
+
   
   it('it should GET the index.html file', (done) => {
       chai.request(server)
@@ -61,6 +60,7 @@ it('it should GET all the users', (done) => {
                     done();
                 });
             });
+
 it('it should POST a user', (done) => {
                 var user = {
                     "firstName": "Jane",
@@ -79,6 +79,7 @@ it('it should POST a user', (done) => {
                         done();
                     });
             });
+
 it('it should not POST a user without email field', (done) => {
                 var user = {
                     "firstName": "Jane",
@@ -93,6 +94,7 @@ it('it should not POST a user without email field', (done) => {
                         done();
                     });
             });
+
 module.exports = function (app, config) {
 app.use(function (err, req, res, next) {
                 if(process.env.NODE_ENV !== 'test') {
@@ -103,9 +105,10 @@ app.use(function (err, req, res, next) {
                 res.send('500 Sever Error');
             })
         };
+
 it('it should GET all the users', (done) => {
                 var user = new User({
-                     "firstName": "Jane",
+                    "firstName": "Jane",
                     "lastName": "Doe",
                     "email": "JaneDoe@hoo.com",
                     "password": "pass"
@@ -193,3 +196,19 @@ it('it should DELETE a user given the id', (done) => {
       });
     });
 });
+
+describe('Mypic', () => {
+    beforeEach((done) => { 
+        Mypic.remove({}, (err) => {
+            done();
+        });
+    });
+    var user = new User({
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "email": "yoo@hoo.com",
+        "password": "pass"
+    });
+        user.save((err, user) => {
+            USER_ID = user._id;
+        });

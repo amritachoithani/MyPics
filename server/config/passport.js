@@ -18,7 +18,7 @@ var localLogin = new localStrategy(localOptions, function(email, password, next)
 	          if (err) {
 		            return next(err);
 	          } else if(!isMatch){
-	  			return next({status: 401, message: 'Invalid username or password'});
+	  			      return next({status: 401, message: 'Invalid username or password'});
 	          } else {
 		            return next(null, user);
 	          }

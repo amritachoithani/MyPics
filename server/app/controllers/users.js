@@ -2,10 +2,10 @@
 var express = require('express'),
 router = express.Router(),
 logger = require('../../config/logger');
-passportService = require('../../config/passport')
-passport = require('passport')
 var mongoose = require('mongoose'),
-User = mongoose.model('User');
+User = mongoose.model('User'),
+passportService = require('../../config/passport')
+passport = require('passport');
 
 var requireLogin = passport.authenticate('local', { session: false });
 var requireAuth = passport.authenticate('jwt', { session: false });
@@ -13,9 +13,43 @@ var requireAuth = passport.authenticate('jwt', { session: false });
 module.exports = function (app, config) {
   app.use('/api', router);
 
-  router.route('/users/login').post(requireLogin, login); 
+router.route('/users/login').post(requireLogin, login); 
 
-  router.post('/login', requireAuth, function(req, res, next){
+router.get('/users', function(req, res, next){
+    logger.log('Get all users', 'verbose');
+
+     var query = User.find()
+     .sort(req.query.order)
+     .exec()
+     .then(result => {
+          if(result && result.length) {
+         res.status(200).json(result);
+     } else {
+         res.status(404).json({message: "No users"});
+     }
+     })
+     .catch(err => {
+       return next(err);
+     });
+ })
+
+router.get('/users/:userId', requireAuth, function(req, res, next){
+     logger.log('Get user ' + req.params.userId, 'verbose');
+       
+     User.findById(req.params.userId)
+           .then(user => {
+               if(user){
+               res.status(200).json(user);
+           } else {
+               res.status(404).json({message: "No user found"});
+               }
+               })
+           .catch(error => {
+           return next(error);
+           });
+         });        
+
+router.post('/login', requireAuth, function(req, res, next){
     console.log(req.body);
     var email = req.body.email;
     var password = req.body.password;
@@ -36,38 +70,6 @@ module.exports = function (app, config) {
      })
    });
       
-  router.get('/users', function(req, res, next){
-     logger.log('Get all users', 'verbose');
-
-      var query = User.find()
-      .sort(req.query.order)
-      .exec()
-      .then(result => {
-           if(result && result.length) {
-          res.status(200).json(result);
-      } else {
-          res.status(404).json({message: "No users"});
-      }
-      })
-      .catch(err => {
-        return next(err);
-      });
-  })
-
-router.get('/users/:userId', requireAuth, function(req, res, next){
-      logger.log('Get user ' + req.params.userId, 'verbose');
-              User.findById(req.params.userId)
-                  .then(user => {
-                      if(user){
-                          res.status(200).json(user);
-                      } else {
-                          res.status(404).json({message: "No user found"});
-                      }
-                  })
-                  .catch(error => {
-                      return next(error);
-                  });
-          });        
 
 router.put('/users/password/:userId', requireAuth, function(req, res, next){
    logger.log('Update user ' + req.params.userId, 'verbose');

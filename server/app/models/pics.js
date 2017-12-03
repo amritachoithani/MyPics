@@ -1,9 +1,9 @@
 var Mongoose = require('mongoose');
 var Schema = Mongoose.Schema;
 
-var TodoSchema = new Schema({
+var MyPicSchema = new Schema({
     userId: { type: Schema.Types.ObjectId, required: true },
-    todo: { type: String, required: true },
+    mypic: { type: String, required: true },
     description: { type: String },
     priority: {type: String},
     dateCreated: {type: Date, default: Date.now},
@@ -13,4 +13,4 @@ var TodoSchema = new Schema({
     
 });
 
-module.exports = Mongoose.model('Todo', TodoSchema);
+module.exports = Mongoose.model('mypics', MyPicSchema);

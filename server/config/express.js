@@ -55,7 +55,7 @@ app.use(express.static(config.root + '/public'));
       res.status(404);
       res.send('404 Not Found');
     });
-  
+
     app.use(function (err, req, res, next) {
       console.error(err.stack);
       res.type('text/plan');

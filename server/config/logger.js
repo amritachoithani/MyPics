@@ -8,6 +8,7 @@ var tsFormat = () => (new Date()).toLocaleTimeString();
 if (!fs.existsSync(logDir)) {
    fs.mkdirSync(logDir);
 }
+
 var logger = new (winston.Logger)({
 transports: [
    new (winston.transports.Console)({
@@ -24,8 +25,10 @@ new (require('winston-daily-rotate-file'))({
        })
    ]
    });
+
    log = function(message, level){
        level = level || 'info';
        logger.log(level, message);
    };
+   
   exports.log = log;
