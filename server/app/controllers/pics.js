@@ -2,7 +2,7 @@ var express = require('express'),
 router = express.Router(),
 logger = require('../../config/logger');
 var mongoose = require('mongoose'),
-Todo = mongoose.model('Todo');
+Pics = mongoose.model('Pics');
 multer = require('multer'),
 mkdirp = require('mkdirp');
 
@@ -11,7 +11,7 @@ module.exports = function (app, config) {
 
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {      
-var path = config.uploads + req.params.userId + "/";
+var path = config.uploads + req.params.userId + "/" + req.params.galleryId + "/";
         mkdirp(path, function(err) {
             if(err){
                 res.status(500).json(err);
@@ -24,29 +24,14 @@ var path = config.uploads + req.params.userId + "/";
         let fileName = file.originalname.split('.');   
         cb(null, fileName[0] + new Date().getTime() + "." + fileName[fileName.length - 1]);
     }
-  });
-
-  router.get('/mypics/:mypicId', requireAuth, function(req, res, next){
-    logger.log('Get My Pics List' + req.params.mypicId, 'verbose');
-            Mypic.findById(req.params.mypicId)
-                .then(mypic => {
-                    if(mypic){
-                        res.status(200).json(mypics);
-                    } else {
-                        res.status(404).json({message: "No pictures found"});
-                    }
-                })
-                .catch(error => {
-                    return next(error);
-                });
-        });       
+  });     
         
-router.get('/mypics/user/:userId', function(req, res, next){
-    logger.log('Get MyPics for a user' + req.params.mypicId, 'verbose');
-        Mypic.find({userId: req.params.userId})
-          .then(mypics => {
-            if(mypics){
-                res.status(200).json(mypics);
+router.get('/users/gallery/:galleryId', function(req, res, next){
+    logger.log('Get Pictures in a Gallery' + req.params.galleryId, 'verbose');
+        Pics.find({galleryId: req.params.galleryId})
+          .then(pics => {
+            if(pics){
+                res.status(200).json(pics);
             } else {
                 res.status(404).json({message: "No pictures"});
             }
@@ -57,10 +42,10 @@ router.get('/mypics/user/:userId', function(req, res, next){
         });   
 
 
-  router.post('/mypics', function (req, res, next) {
-     logger.log('Create Photo', 'verbose');
-    var mypic = new Todo(req.body);
-     mypic.save()
+  router.post('/gallery/pics/', function (req, res, next) {
+     logger.log('Add Picture', 'verbose');
+    var pics = new Pics(req.body);
+     pics.save()
      .then(result => {
     res.status(201).json(result);
      })
@@ -71,12 +56,12 @@ router.get('/mypics/user/:userId', function(req, res, next){
       
 
 
-router.put('/mypics/:mypicId', function(req, res, next){
-      logger.log('Update Photo', + req.params.todoId,  'verbose');
+router.put('/gallery/:galleryId/:picsId', function(req, res, next){
+      logger.log('Update Pictures', + req.params.picsId,  'verbose');
  
-          Mypic.findOneAndUpdate({_id: req.params.todoId}, req.body, {new:true, multi:false})
-              .then(mypic => {
-                  res.status(200).json(todo);
+          Pics.findOneAndUpdate({_id: req.params.picsId}, req.body, {new:true, multi:false})
+              .then(pics => {
+                  res.status(200).json(pics);
               })
               .catch(error => {
                   return next(error);
@@ -85,23 +70,23 @@ router.put('/mypics/:mypicId', function(req, res, next){
      
 
 var upload = multer({ storage: storage });
-      router.post('/mypics/upload/:userId/:mypicId', upload.any(), function(req, res, next){
-          logger.log('Upload Photo' + req.params.todoId + ' and ' + req.params.userId, 'verbose');
+      router.post('/gallery/upload/:userId/:galleryId:picsId', upload.any(), function(req, res, next){
+          logger.log('Upload Picture' + req.params.todoId + ' and ' + req.params.userId  + ' and ' + req.params.galleryId, 'verbose');
           
-          Mypic.findById(req.params.mypicId, function(err, mypic){
+          Pics.findById(req.params.picsId, function(err, pics){
               if(err){ 
                   return next(err);
               } else {     
                   if(req.files){
-                      mypic.file = {
+                      pics.file = {
                           filename : req.files[0].filename,
                           originalName : req.files[0].originalname,
                           dateUploaded : new Date()
                       };
                   }           
-                  mypic.save()
-                      .then(mypic => {
-                          res.status(200).json(mypic);
+                  pics.save()
+                      .then(pics => {
+                          res.status(200).json(pics);
                       })
                       .catch(error => {
                           return next(error);
@@ -110,12 +95,12 @@ var upload = multer({ storage: storage });
           });
     });      
 
-router.delete('/mypics/:mypicId', function(req, res, next){
-        logger.log('Delete Photo', + req.params.todoId,  'verbose');
+router.delete('/gallery/:galleryId/:picsId', function(req, res, next){
+        logger.log('Delete Picture', + req.params.picsId,  'verbose');
    
-            Mypic.remove({ _id: req.params.todoId })
-                .then(user => {
-                    res.status(200).json({msg: "Photo Deleted"});
+            Pics.remove({ _id: req.params.picsId })
+                .then(pics => {
+                    res.status(200).json({msg: "Picture Deleted"});
                 })
                 .catch(error => {
                     return next(error);

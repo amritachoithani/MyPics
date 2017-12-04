@@ -197,18 +197,3 @@ it('it should DELETE a user given the id', (done) => {
     });
 });
 
-describe('Mypic', () => {
-    beforeEach((done) => { 
-        Mypic.remove({}, (err) => {
-            done();
-        });
-    });
-    var user = new User({
-        "firstName": "Jane",
-        "lastName": "Doe",
-        "email": "yoo@hoo.com",
-        "password": "pass"
-    });
-        user.save((err, user) => {
-            USER_ID = user._id;
-        });

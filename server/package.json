@@ -1,7 +1,7 @@
 {
-  "name": "exam",
+  "name": "mypics",
   "version": "1.0.0",
-  "description": "Amrita ToDo List",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/test.js"
