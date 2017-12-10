@@ -1,0 +1,43 @@
+<template>
+<h1 class="center"> Galleries</h1>
+    <div class = "container">
+        <div class="card topMargin">
+            <div class="card-body">
+                <div class="row">
+             				
+                <span class="col">
+                <span class="rightMargin pull-right"><i click.trigger="logout()" class="fa fa-sign-out fa-lg" aria-hidden="true"></i></span>
+                <span class=" rightMargin pull-right"><i click.trigger="createGallery()" class="fa fa-plus fa-lg" aria-hidden="true"></i></span>
+            </span>
+        </div>        
+    <div show.bind="gallery.galleryArray.length">
+    <table class="table">
+         <thead>
+            <tr>
+                <th>Gallery Name</th>
+                <th>Date Created</th>
+                <th>Description</th>						
+                <th>Edit</th>						
+            </tr>
+        </thead>
+            <tbody>
+                <tr repeat.for = "gallery of gallery.galleryArray">
+                <th><button click.trigger="showGallery(gallery)" class="btn btn-primary">${gallery.gallery}</button></th>
+                <td>${gallery.dateCreated | dateFormat}</td> 
+                <td>${gallery.description}</td>
+            <td>
+                <i click.trigger="editGallery(gallery)" class="fa fa-pencil rightMargin" aria-hidden="true"></i>
+                <i click.trigger="deleteGallery(gallery)"class="fa fa-trash rightMargin" aria-hidden="true"></i>              
+            </td>												
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div show.bind="!gallery.galleryArray.length">
+    <h2>Apparently, you don't have photos in your galleries!</h2>
+</div>
+</div>
+</div>
+</div>
+</template>

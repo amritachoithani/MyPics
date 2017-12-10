@@ -1,9 +1,7 @@
 <template>
 	<h1>${message}</h1>
-	<compose show.bind="showList" view="./components/todoList.html"></compose>
-	<compose show.bind="!showList" view="./components/todoForm.html"></compose>
-
-	<button click.trigger="logout()">logout</button>
-
-	<button click.trigger="createTodo()">Create a Todo</button>
+	<compose show.bind="showList== 'galleryList'" view="./components/galleryList.html"></compose>
+	<compose show.bind="showList== 'galleryForm'" view="./components/galleryForm.html"></compose>
+	<compose show.bind="showList== 'picsList'" view="./components/picsList.html"></compose>
+	<compose show.bind="showList== 'picsForm'" view="./components/picsForm.html"></compose>
 </template>

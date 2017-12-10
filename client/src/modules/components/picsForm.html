@@ -1,0 +1,47 @@
+<template>
+        <div class = "container">
+            <div class="card topMargin">
+                <div class="card-body">
+                    <span><i click.trigger="backPics()" class="fa fa-arrow-left fa-lg" aria-hidden="true"></i></span>
+                </div>
+            </div> 
+        </div>	
+        <form>
+            <div class="form-group topMargin">
+                  <label for="picsInput">Photo Name *</label>
+                  <input value.bind="picsObj.picsName" type="text" class="form-control" id="picsNameInput" aria-describedby="picsHelp" 
+                    placeholder="Enter Photo Name">
+                  <small id="picsHelp" class="form-text text-muted">
+                    A short name for the photo.</small>
+            </div>
+            <div class="form-group">
+                    <label for="descriptionInput">Description</label>
+                    <textarea value.bind="picsObj.picsDescription" type="text" class="form-control" 
+                    id="picsDescriptionInput" aria-describedby="picsDescriptionHelp" 
+                    placeholder="Enter Description"></textarea>
+                    <small id="picsDescriptionHelp" class="form-text text-muted">
+                    A longer description if required.</small>
+                </div>
+                
+        <div class="row">
+                        <div class="col">
+                                <label class="btn btn-secondary">
+                                                Browse for photos&hellip; <input type="file" 
+                                                style="display: none;" 
+                                                change.delegate="changeFiles()" files.bind="files">
+                                </label>
+                                <small id="fileHelp" class="form-text text-muted">
+                                                Upload photos.</small>
+                        </div>	
+                        <div class="col-8">
+                            <ul>
+                                <li repeat.for="file of filesToUpload" class="list-group-item">
+                                 ${file.name}<span click.delegate="removeFile($index)" 
+                                class="pull-right"><i class="fa fa-trash" aria-hidden="true">
+                                </i></span></li>
+                            </ul>
+                        </div>
+                </div> 
+                <button click.trigger="savePics()" class="btn btn-primary topMargin">Save</button>
+            </template>
+            
