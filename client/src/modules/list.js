@@ -14,6 +14,7 @@ export class List {
     this.message = 'List';
     this.auth = auth;
     this.user = JSON.parse(sessionStorage.getItem('user'));
+    this.gallery2 = JSON.parse(sessionStorage.getItem('gallery'));
     this.showList = 'galleryList';
   }
 
@@ -34,7 +35,7 @@ export class List {
 
         createPhotos() {  
             this.photoObj = {
-           galleryId: this.gallery._id
+           galleryId: this.gallery2._id
            };   
            this.showList = 'picsForm';
            }
@@ -83,11 +84,12 @@ export class List {
             if(this.photoObj){		
                 let response = await this.pics.save(this.photoObj);
                 if(response.error){
-                    alert("There was an error creating the Galleries");
+                    alert("There was an error uploading the photo");
                 } else {
-                      var galleryId = response._id;
+                      var picsId = response._id;
+                      var galleryId = response.galleryId;
                                     if(this.filesToUpload && this.filesToUpload.length){
-                                        await this.pics.uploadFile(this.filesToUpload, this.user._id, galleryId);
+                                        await this.pics.uploadFile(this.filesToUpload, galleryId, picsId);
                                         this.filesToUpload = [];
                                     }                     
                 }
