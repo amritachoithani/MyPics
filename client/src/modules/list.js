@@ -4,7 +4,6 @@ import {Gallery} from '../resources/data/gallery';
 import {Pics} from '../resources/data/pics';
 import { AuthService } from 'aurelia-auth';
 
-
 @inject(Router, Gallery, Pics, AuthService, )
 export class List {
   constructor(router, gallery, pics, auth) {
@@ -14,29 +13,27 @@ export class List {
     this.message = 'List';
     this.auth = auth;
     this.user = JSON.parse(sessionStorage.getItem('user'));
-    this.gallery2 = JSON.parse(sessionStorage.getItem('gallery'));
     this.showList = 'galleryList';
   }
 
-
   async activate(){
-		await this.gallery.getUserGallery(this.user._id);
-	}
+        await this.gallery.getUserGallery(this.user._id);
+    }
 
-        createGallery(){	
+        createGallery(){    
             this.galleryObj = {
                 gallery: "",
                 description: "",
                 dateCreated: new Date(),
                 userId: this.user._id,
             }
-            this.showList = 'galleryForm';		
+            this.showList = 'galleryForm';      
         }
 
         createPhotos() {  
             this.photoObj = {
-            galleryId: (JSON.parse(sessionStorage.getItem('gallery'))._id)
-           };   
+           galleryId: (JSON.parse(sessionStorage.getItem('gallery'))._id)
+           };
            this.showList = 'picsForm';
            }
 
@@ -45,15 +42,19 @@ export class List {
             this. showList = 'galleryForm';
             }
 
-        editPics(gallery){
-            this.galleryObj = gallery;
+        editPics(pics){
+            this.photoObj = pics;
             this. showList = 'picsForm';
             }
 
         deleteGallery(gallery){
             this.gallery.deleteGallery(gallery._id);
             }
-              
+             
+        deletePics(pics) {
+            this.pics.deletePics(pics._id);
+            }
+
         changeFiles(){
             this.filesToUpload = new Array(); 
             this.filesToUpload.push(this.files[0]);
@@ -65,7 +66,7 @@ export class List {
                        
     
         async saveGallery(){
-            if(this.galleryObj){		
+            if(this.galleryObj){        
                 let response = await this.gallery.save(this.galleryObj);
                 if(response.error){
                     alert("There was an error creating the Galleries");
@@ -81,7 +82,7 @@ export class List {
         }
 
         async savePics(){
-            if(this.photoObj){		
+            if(this.photoObj){      
                 let response = await this.pics.savePicture(this.photoObj);
                 if(response.error){
                     alert("There was an error uploading the photo");
@@ -96,13 +97,13 @@ export class List {
                 this.showList = 'picsList';
             }
         }
-
+      
         async showGallery(gallery) {
             sessionStorage.setItem("gallery", JSON.stringify(gallery));
             await this.pics.getUserPic(JSON.parse(sessionStorage.getItem('gallery'))._id);
             this.showList = 'picsList';
-        }
-
+            
+            }
         back(){
             this.showList='galleryList';
         }

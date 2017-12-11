@@ -5,9 +5,9 @@ import {DataServices} from './data-services';
 export class Pics {
   constructor(data) {
     this.data = data;
-    this.GALLERY_SERVICE = 'gallery';
     this.PIC_SERVICE = 'pics';
     this.picsArray = [];
+    this.GALLERY_SERVICE = 'gallery';
   }
 
   async getUserPic(galleryId) {
@@ -17,7 +17,7 @@ export class Pics {
     }
   }
 
-  async savePicture() {
+  async savePicture(pics) {
     if (pics) {
       if (!pics._id) {
         let response = await this.data.post(pics, this.GALLERY_SERVICE + "/" + this.PIC_SERVICE);
