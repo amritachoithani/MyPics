@@ -18,7 +18,7 @@ export class Gallery {
    
   async save(gallery) {
     if (gallery) {
-      if (!todo._id) {
+      if (!gallery._id) {
         let response = await this.data.post(gallery, this.GALLERY_SERVICE);
         if (!response.error) {
           this.galleryArray.push(response);

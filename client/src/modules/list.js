@@ -5,9 +5,9 @@ import {Pics} from '../resources/data/pics';
 import { AuthService } from 'aurelia-auth';
 
 
-@inject(Router, AuthService, Gallery, Pics)
+@inject(Router, Gallery, Pics, AuthService, )
 export class List {
-  constructor(router, auth, gallery, pics) {
+  constructor(router, gallery, pics, auth) {
     this.gallery = gallery;
     this.pics = pics;
     this.router = router;
@@ -32,13 +32,12 @@ export class List {
             this.showList = 'galleryForm';		
         }
 
-        createPics(){	
-            this.galleryObj = {
-                userId: this.user._id,
-                Id: this.selectedphoto
-            }
-            this.showList = 'picsForm';		
-        }
+        createPhotos() {  
+            this.photoObj = {
+           galleryId: this.gallery._id
+           };   
+           this.showList = 'picsForm';
+           }
 
         editGallery(gallery){
             this.galleryObj = gallery;
@@ -96,9 +95,8 @@ export class List {
             }
         }
 
-        async showPics (gallery){
-            this.selectedpics = gallery._id;
-            await this.pics.getPics(gallery._id)
+        async showGallery(gallery) {  
+            sessionStorage.setItem("gallery", JSON.stringify(gallery));
             this.showList ='picsList';
         }
 

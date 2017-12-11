@@ -11,7 +11,7 @@ module.exports = function (app, config) {
 
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {      
-var path = config.uploads + req.params.userId + "/" + req.params.galleryId + "/";
+var path = config.uploads + "/" + req.params.galleryId + "/";
         mkdirp(path, function(err) {
             if(err){
                 res.status(500).json(err);
@@ -56,7 +56,7 @@ router.get('/users/gallery/:galleryId', function(req, res, next){
       
 
 
-router.put('/gallery/:galleryId/:picsId', function(req, res, next){
+router.put('/gallery/pics/:picsId', function(req, res, next){
       logger.log('Update Pictures', + req.params.picsId,  'verbose');
  
           Pics.findOneAndUpdate({_id: req.params.picsId}, req.body, {new:true, multi:false})
@@ -70,13 +70,14 @@ router.put('/gallery/:galleryId/:picsId', function(req, res, next){
      
 
 var upload = multer({ storage: storage });
-      router.post('/gallery/upload/:userId/:galleryId:picsId', upload.any(), function(req, res, next){
-          logger.log('Upload Picture' + req.params.todoId + ' and ' + req.params.userId  + ' and ' + req.params.galleryId, 'verbose');
+      router.post('/gallery/upload/:galleryId/:picsId', upload.any(), function(req, res, next){
+          logger.log('Upload Picture' + req.params.picsId, 'verbose');
           
           Pics.findById(req.params.picsId, function(err, pics){
               if(err){ 
                   return next(err);
-              } else {     
+              } else {  
+            console.log(pics)   
                   if(req.files){
                       pics.file = {
                           filename : req.files[0].filename,
@@ -95,7 +96,7 @@ var upload = multer({ storage: storage });
           });
     });      
 
-router.delete('/gallery/:galleryId/:picsId', function(req, res, next){
+router.delete('/pics/:picsId', function(req, res, next){
         logger.log('Delete Picture', + req.params.picsId,  'verbose');
    
             Pics.remove({ _id: req.params.picsId })

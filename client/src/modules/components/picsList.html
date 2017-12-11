@@ -1,5 +1,7 @@
 <template>
+        <center>
         <h1 class="center"> Photos</h1>
+    </center>
             <div class = "container">
                 <div class="card topMargin">
                     <div class="card-body">
@@ -12,16 +14,20 @@
                     </span>
                 </div>
     <div show.bind="pics.picsArray.length">
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Photo</th>						
-                    <th>Edit</th>						
-                </tr>
-            </thead>
+            <table class="table">
+                    <thead>
+                       <tr>
+                           <th>Photo</th>
+                           <th>Photo Name</th>
+                           <th>Description</th>						
+                           <th>Edit </th>						
+                       </tr>
+                   </thead>
         <tbody>
                <tr repeat.for = "pics of pics.picsArray">
-                    <td><a href="http://localhost:5000/uploads/${user._id}/${photo.file.filename}" target="_blank"><img src ="http://localhost:5000/uploads/${user._id}/${photo.file.fileName}" alt=${photo.file.originalName} class="img-thumbnail" style ="width: 150px"></a></th>
+                <th><a href = "http://localhost:5000/uploads/${pics.galleryId}/${pics.file.filename}" target ="_blank"><img src ="http://localhost:5000/uploads/${pics.galleryId}/${pics.file.filename}" style="width:150px; height: 150px;"></a></th>
+                        <td>${pics.picsName}</td>
+                        <td>${pics.picsDescription}</td> 
                     </td>
 
     <td>

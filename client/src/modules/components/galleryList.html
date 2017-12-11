@@ -1,5 +1,7 @@
 <template>
+<center>
 <h1 class="center"> Galleries</h1>
+</center>
     <div class = "container">
         <div class="card topMargin">
             <div class="card-body">
@@ -17,7 +19,7 @@
                 <th>Gallery Name</th>
                 <th>Date Created</th>
                 <th>Description</th>						
-                <th>Edit</th>						
+                <th>Edit | Delete</th>						
             </tr>
         </thead>
             <tbody>
@@ -35,7 +37,7 @@
 </div>
 
 <div show.bind="!gallery.galleryArray.length">
-    <h2>Apparently, you don't have photos in your galleries!</h2>
+    <h2>Apparently, you don't have any galleries!</h2>
 </div>
 </div>
 </div>

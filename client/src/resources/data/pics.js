@@ -50,7 +50,7 @@ export class Pics {
     files.forEach((item, index) => {
       formData.append("file" + index, item);
     });
-    let response = await this.data.uploadFiles(formData, this.GALLERY_SERVICE + "/upload/" + galleryId + "/" + photoId);
+    let response = await this.data.uploadFiles(formData, this.GALLERY_SERVICE + "/upload/" + galleryId + "/" + picsId);
     return response;
   }
 }

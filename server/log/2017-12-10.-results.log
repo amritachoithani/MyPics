@@ -1,0 +1,113 @@
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-10T03:17:17.562Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-10T03:17:19.955Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-10T03:17:20.608Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T03:18:11.559Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T03:18:12.679Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-10T03:18:12.681Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T03:20:59.682Z"}
+{"level":"verbose","message":"Create User","timestamp":"2017-12-10T03:20:59.684Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T03:21:08.715Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T03:21:08.854Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-10T03:21:08.854Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-10T21:46:47.744Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-10T21:46:48.762Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-10T21:46:49.248Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T21:48:23.957Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T21:48:25.132Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-10T21:48:25.134Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T21:54:35.510Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-10T21:54:35.521Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T21:55:10.267Z"}
+{"level":"verbose","message":"Create a Gallery","timestamp":"2017-12-10T21:55:10.270Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T21:57:29.324Z"}
+{"level":"info","message":"Update Gallery","timestamp":"2017-12-10T21:57:29.326Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T21:57:31.170Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-10T21:57:31.171Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T22:01:37.035Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-10T22:01:37.036Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T22:01:41.373Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-10T22:01:41.374Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T22:02:46.028Z"}
+{"level":"verbose","message":"Create a Gallery","timestamp":"2017-12-10T22:02:46.028Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T22:15:02.564Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T22:15:02.713Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-10T22:15:02.714Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T22:24:43.164Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-10T22:24:43.166Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T22:25:04.069Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T22:25:04.228Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-10T22:25:04.229Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T22:25:14.503Z"}
+{"level":"verbose","message":"Create a Gallery","timestamp":"2017-12-10T22:25:14.505Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T22:27:30.733Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-10T22:27:30.733Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T22:27:37.831Z"}
+{"level":"verbose","message":"Create a Gallery","timestamp":"2017-12-10T22:27:37.832Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T22:41:42.478Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-10T22:41:42.482Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T22:42:37.719Z"}
+{"level":"verbose","message":"Create a Gallery","timestamp":"2017-12-10T22:42:37.722Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T22:44:32.715Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T22:44:32.872Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-10T22:44:32.874Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T22:44:57.677Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-10T22:44:57.677Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T22:47:05.766Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T22:47:11.709Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T22:47:11.903Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-10T22:47:11.904Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T22:49:25.660Z"}
+{"level":"verbose","message":"Create a Gallery","timestamp":"2017-12-10T22:49:25.662Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T22:52:34.340Z"}
+{"level":"verbose","message":"Create a Gallery","timestamp":"2017-12-10T22:52:34.341Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:04:22.848Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:04:23.015Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-10T23:04:23.016Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:05:33.126Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:05:33.285Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-10T23:05:33.286Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-10T23:09:38.558Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-10T23:09:39.722Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-10T23:09:39.763Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:10:18.829Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:10:19.116Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-10T23:10:19.119Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:16:33.403Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:16:33.566Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-10T23:16:33.567Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:21:24.862Z"}
+{"level":"verbose","message":"Create a Gallery","timestamp":"2017-12-10T23:21:24.863Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:30:13.986Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-10T23:30:13.988Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:30:36.806Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-10T23:30:36.806Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:30:54.637Z"}
+{"level":"verbose","message":"Create a Gallery","timestamp":"2017-12-10T23:30:54.639Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:41:45.486Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:41:45.510Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:41:50.153Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:41:50.172Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:45:04.680Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-10T23:45:04.682Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:45:28.109Z"}
+{"level":"verbose","message":"Create a Gallery","timestamp":"2017-12-10T23:45:28.110Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:46:01.717Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:46:01.738Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:46:01.820Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:46:04.248Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:46:04.340Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:47:29.611Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:48:05.238Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:48:05.401Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-10T23:48:05.402Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:48:05.434Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:53:46.975Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-10T23:53:46.977Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:55:37.636Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-10T23:55:37.636Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:55:50.539Z"}
+{"level":"verbose","message":"Create a Gallery","timestamp":"2017-12-10T23:55:50.541Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:57:20.486Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:57:20.496Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:57:20.505Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-10T23:57:22.251Z"}

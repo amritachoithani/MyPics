@@ -9,14 +9,14 @@
         <form>
             <div class="form-group topMargin">
                   <label for="picsInput">Photo Name *</label>
-                  <input value.bind="picsObj.picsName" type="text" class="form-control" id="picsNameInput" aria-describedby="picsHelp" 
+                  <input value.bind="photoObj.picsName" type="text" class="form-control" id="picsNameInput" aria-describedby="picsHelp" 
                     placeholder="Enter Photo Name">
                   <small id="picsHelp" class="form-text text-muted">
                     A short name for the photo.</small>
             </div>
             <div class="form-group">
                     <label for="descriptionInput">Description</label>
-                    <textarea value.bind="picsObj.picsDescription" type="text" class="form-control" 
+                    <textarea value.bind="photoObj.picsDescription" type="text" class="form-control" 
                     id="picsDescriptionInput" aria-describedby="picsDescriptionHelp" 
                     placeholder="Enter Description"></textarea>
                     <small id="picsDescriptionHelp" class="form-text text-muted">
@@ -42,6 +42,6 @@
                             </ul>
                         </div>
                 </div> 
-                <button click.trigger="savePics()" class="btn btn-primary topMargin">Save</button>
+                <button click.trigger="savePics()" class="btn btn-primary topMargin">Upload Photo</button>
             </template>
             
