@@ -35,7 +35,7 @@ export class List {
 
         createPhotos() {  
             this.photoObj = {
-           galleryId: this.gallery2._id
+            galleryId: (JSON.parse(sessionStorage.getItem('gallery'))._id)
            };   
            this.showList = 'picsForm';
            }
@@ -82,7 +82,7 @@ export class List {
 
         async savePics(){
             if(this.photoObj){		
-                let response = await this.pics.save(this.photoObj);
+                let response = await this.pics.savePicture(this.photoObj);
                 if(response.error){
                     alert("There was an error uploading the photo");
                 } else {
@@ -97,9 +97,10 @@ export class List {
             }
         }
 
-        async showGallery(gallery) {  
+        async showGallery(gallery) {
             sessionStorage.setItem("gallery", JSON.stringify(gallery));
-            this.showList ='picsList';
+            await this.pics.getUserPic(JSON.parse(sessionStorage.getItem('gallery'))._id);
+            this.showList = 'picsList';
         }
 
         back(){

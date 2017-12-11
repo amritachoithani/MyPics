@@ -188,3 +188,153 @@
 {"level":"info","message":"Request from ::1","timestamp":"2017-12-11T04:05:02.854Z"}
 {"level":"info","message":"Request from ::1","timestamp":"2017-12-11T04:05:02.868Z"}
 {"level":"info","message":"Request from ::1","timestamp":"2017-12-11T04:05:02.875Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-11T14:45:54.709Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-11T14:45:56.748Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-11T14:45:56.783Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:28.162Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:28.647Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-11T14:47:28.650Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:31.965Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:31.966Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:32.585Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:32.586Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:32.846Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:32.846Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:33.008Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:33.009Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:33.166Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:33.167Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:33.334Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:33.335Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:34.540Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:34.540Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:34.667Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:34.667Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:34.827Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:34.829Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:34.994Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:34.995Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:35.107Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:35.108Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:35.264Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:35.265Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:35.404Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:35.405Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:35.555Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:35.556Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:35.697Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:35.698Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:35.841Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:35.841Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:36.002Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:36.002Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:36.143Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:36.144Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:36.310Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:36.310Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:36.463Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:36.463Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:36.599Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:36.599Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:36.758Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:36.758Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:36.921Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:36.921Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:37.115Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:37.115Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:37.290Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:37.290Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:37.437Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:37.437Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:37.588Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:37.588Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:38.354Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T14:47:38.355Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:47:53.376Z"}
+{"level":"verbose","message":"Create a Gallery","timestamp":"2017-12-11T14:47:53.379Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:48:02.456Z"}
+{"level":"verbose","message":"Get Pictures in a Gallery5a2e9a99a6d1e00a8ef82553","timestamp":"2017-12-11T14:48:02.457Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:48:55.344Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-11T14:48:55.344Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:48:56.871Z"}
+{"level":"verbose","message":"Get Pictures in a Gallery5a2e9a99a6d1e00a8ef82553","timestamp":"2017-12-11T14:48:56.872Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:51:57.484Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-11T14:51:57.484Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:52:00.332Z"}
+{"level":"verbose","message":"Get Pictures in a Gallery5a2e9a99a6d1e00a8ef82553","timestamp":"2017-12-11T14:52:00.333Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:52:26.975Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-11T14:52:26.975Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:52:28.475Z"}
+{"level":"verbose","message":"Get Pictures in a Gallery5a2e9a99a6d1e00a8ef82553","timestamp":"2017-12-11T14:52:28.476Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:53:53.833Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-11T14:53:53.834Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:53:58.417Z"}
+{"level":"verbose","message":"Get Pictures in a Gallery5a2e9a99a6d1e00a8ef82553","timestamp":"2017-12-11T14:53:58.419Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:55:09.801Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-11T14:55:09.802Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:55:13.872Z"}
+{"level":"verbose","message":"Get Pictures in a Gallery5a2e9a99a6d1e00a8ef82553","timestamp":"2017-12-11T14:55:13.873Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:55:27.528Z"}
+{"level":"verbose","message":"Add Picture","timestamp":"2017-12-11T14:55:27.531Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:55:28.733Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:55:28.749Z"}
+{"level":"verbose","message":"Upload Picture5a2e9c5fa6d1e00a8ef82554","timestamp":"2017-12-11T14:55:28.823Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:58:13.242Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-11T14:58:13.243Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:58:21.590Z"}
+{"level":"verbose","message":"Get Pictures in a Gallery5a2e9a99a6d1e00a8ef82553","timestamp":"2017-12-11T14:58:21.590Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:58:21.648Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:58:41.870Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:59:28.597Z"}
+{"level":"verbose","message":"Get Pictures in a Gallery5a2e9a99a6d1e00a8ef82553","timestamp":"2017-12-11T14:59:28.597Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:59:45.715Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:59:45.858Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-11T14:59:45.859Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:59:45.891Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T14:59:47.504Z"}
+{"level":"verbose","message":"Get Pictures in a Gallery5a2e9a99a6d1e00a8ef82553","timestamp":"2017-12-11T14:59:47.505Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T15:01:01.045Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-11T15:01:01.046Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T15:01:35.480Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-11T15:01:35.481Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T15:01:36.224Z"}
+{"level":"verbose","message":"Get Pictures in a Gallery5a2e9a99a6d1e00a8ef82553","timestamp":"2017-12-11T15:01:36.225Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T15:01:36.245Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T15:01:43.283Z"}
+{"level":"verbose","message":"Get Pictures in a Gallery5a2e9a99a6d1e00a8ef82553","timestamp":"2017-12-11T15:01:43.283Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T15:02:16.352Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-11T15:02:16.353Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T15:02:18.814Z"}
+{"level":"verbose","message":"Get Pictures in a Gallery5a2e9a99a6d1e00a8ef82553","timestamp":"2017-12-11T15:02:18.814Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T15:02:18.828Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T15:04:27.500Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T15:04:27.644Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-11T15:04:27.645Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T15:04:29.430Z"}
+{"level":"info","message":"Delete this Gallery","timestamp":"2017-12-11T15:04:29.431Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T15:04:39.266Z"}
+{"level":"verbose","message":"Create a Gallery","timestamp":"2017-12-11T15:04:39.268Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T15:04:47.608Z"}
+{"level":"verbose","message":"Get Pictures in a Gallery5a2e9e87a6d1e00a8ef82555","timestamp":"2017-12-11T15:04:47.610Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T15:05:13.080Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-11T15:05:13.081Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T15:05:14.848Z"}
+{"level":"verbose","message":"Get Pictures in a Gallery5a2e9e87a6d1e00a8ef82555","timestamp":"2017-12-11T15:05:14.851Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T15:06:11.171Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-11T15:06:11.171Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T15:06:12.335Z"}
+{"level":"verbose","message":"Get Pictures in a Gallery5a2e9e87a6d1e00a8ef82555","timestamp":"2017-12-11T15:06:12.336Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T15:07:56.181Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-11T15:07:56.181Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T15:08:00.496Z"}
+{"level":"verbose","message":"Get Pictures in a Gallery5a2e9e87a6d1e00a8ef82555","timestamp":"2017-12-11T15:08:00.496Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-11T15:13:30.436Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-11T15:13:31.907Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-11T15:13:31.945Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T15:13:53.790Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T15:13:54.065Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-11T15:13:54.068Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T15:14:06.255Z"}
+{"level":"verbose","message":"Get Pictures in a Gallery5a2e9e87a6d1e00a8ef82555","timestamp":"2017-12-11T15:14:06.256Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T15:17:59.010Z"}
+{"level":"verbose","message":"Get Pictures in a Gallery5a2e9e87a6d1e00a8ef82555","timestamp":"2017-12-11T15:17:59.012Z"}

@@ -12,7 +12,7 @@ router.get('/gallery/:userId', function(req, res, next){
         Gallery.find({userId: req.params.userId})
             .then(gallery => {
                 if(gallery){
-                    res.status(200).json(mypics);
+                    res.status(200).json(gallery);
                 } else {
                     res.status(404).json({message: "No Gallery"});
                 }
