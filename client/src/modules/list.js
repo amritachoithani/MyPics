@@ -80,8 +80,8 @@ export class List {
         }
 
         async savePics(){
-            if(this.galleryObj){		
-                let response = await this.pics.save(this.galleryObj);
+            if(this.photoObj){		
+                let response = await this.pics.save(this.photoObj);
                 if(response.error){
                     alert("There was an error creating the Galleries");
                 } else {

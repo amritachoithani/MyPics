@@ -106,3 +106,36 @@
 {"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-11T03:07:24.111Z"}
 {"level":"info","message":"Request from ::1","timestamp":"2017-12-11T03:07:49.080Z"}
 {"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-11T03:07:49.080Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T03:35:51.740Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-11T03:35:51.740Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T03:36:08.607Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-11T03:36:08.608Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T03:36:35.102Z"}
+{"level":"verbose","message":"Create a Gallery","timestamp":"2017-12-11T03:36:35.104Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T03:36:50.143Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T03:36:50.152Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T03:36:50.163Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T03:37:11.597Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-11T03:37:11.598Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T03:37:48.133Z"}
+{"level":"verbose","message":"Create a Gallery","timestamp":"2017-12-11T03:37:48.133Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T03:38:01.721Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T03:38:01.740Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T03:38:01.755Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-11T03:43:17.219Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-11T03:43:18.688Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-11T03:43:18.819Z"}
+{"level":"info","message":"Loading Mongoose functionality","timestamp":"2017-12-11T03:44:27.680Z"}
+{"level":"info","message":"Starting application","timestamp":"2017-12-11T03:44:30.097Z"}
+{"level":"info","message":"Mongoose connected to the database","timestamp":"2017-12-11T03:44:30.132Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T03:44:32.238Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T03:44:32.530Z"}
+{"level":"verbose","message":"Get Gallery5a1b28798033f03054f04545","timestamp":"2017-12-11T03:44:32.533Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T03:44:32.596Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T03:44:43.593Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T03:44:43.601Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T03:44:51.897Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T03:44:51.907Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T03:45:07.113Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T03:45:07.127Z"}
+{"level":"info","message":"Request from ::1","timestamp":"2017-12-11T03:45:07.136Z"}

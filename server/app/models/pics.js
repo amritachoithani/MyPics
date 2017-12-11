@@ -3,8 +3,8 @@ var Schema = Mongoose.Schema;
 
 var MyPicSchema = new Schema({
     galleryId: { type: Schema.Types.ObjectId, required: true },
-    photoDescription: {type: String},
-    photoName: {type: String},
+    picsDescription: {type: String},
+    picsName: {type: String},
     file: {filename: String, originalName: String, dateUploaded: Date},    
     dateUploaded: { type: Date, default: Date.now },
 });
